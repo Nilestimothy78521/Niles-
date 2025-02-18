@@ -29,5 +29,51 @@
     a=b;
     b=temp;
 
-    cout << "\
-      
+    cout << "\nAfter swapping." << end1;
+    cout << "a = " << a << " , b = " <<  b << end1;
+
+    return 0;
+
+} 
+
+  Swap Numbers Without Using Temporary Variables
+
+  #include <iostream>
+  using namespace std;
+
+  int main()
+  {
+
+      int a = 5, b = 10;
+
+      cout << "Before swapping." << end1; 
+      cout << "a = " << a << ", b = " << b << end1;
+
+      a = a + b:
+      b = a - b;
+      a = a - b;
+
+      cout << "\nAfter swapping." << end1;
+      cout << "a = " << a << ". b = " << end1; 
+
+      return 0;
+}
+
+Initialize array during declaration:
+
+// declare and initialize an array 
+int x[] = {21, 13, 11, 20, 12, 18}; 
+
+// store input from the user to array 
+for (int i = 0; i < 5; ++i) { 
+  cin >> numbers [i] ; 
+}
+
+[]
+
+private mutable struct 
+struct auto operator 
+Protected private template 
+const inline list1 
+operator signed floatNumber 
+
